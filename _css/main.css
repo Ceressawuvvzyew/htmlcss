@@ -1,1 +1,86 @@
 /* css */
+
+body {
+    margin:0px;
+    padding:0px;
+    background-color:black;
+}
+
+#page {
+    padding:40px;
+}
+
+#header {
+    background-color:gray;
+    padding:0px;
+    color:white;
+}
+
+#header h1{
+    margin:0px;
+    padding:20px 40px;
+    font-family:vendura;
+    font-size:60pt;
+}
+
+/* navigation */
+#nav, #nav a{
+    background-color:#ccc;    /* this changes the background color to #ccc */
+    padding:10px;
+}
+
+#nav a{
+    margin:0px;
+    color:black;
+    font-family:Arial;
+    text-decoration:none;    /* this removes the underline from the text */ 
+}
+
+#nav a:hover {
+    background-color:#aaaaff;
+    color:white;
+    transition: background-color 2s;    /* this changes the transition to #width */
+}
+/* end navigation */
+
+#content {
+    padding:20px 40px;
+    background-color:#eee;    /* sets the background color */ 
+    margin:0px
+    
+} 
+
+#content h2, #content h3 {
+    font-family:Ariel;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    margin:0px;
+    padding:20px 40px;
+}
+#footer a { 
+  text-decoration:none;
+  color:white;
+    
+}
+
+
+.spotlight {
+    background-color:violet
+    padding:20px;
+    
+}
+/*
+#header{
+    background-color:gray;
+    padding:0px;
+    color:white;
+}
+
+#header:hover{
+    background-color:pink;
+    transition: background-color 4s;
+}
+*/
